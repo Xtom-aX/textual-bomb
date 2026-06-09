@@ -6,6 +6,13 @@ Screen {
     align: center middle;
 }
 
+#msg {
+    text-align: center;
+    width: 30;
+    margin-bottom: 1;
+    background: transparent;
+}
+
 /* Main countdown display */
 #countdown {
     width: 30;

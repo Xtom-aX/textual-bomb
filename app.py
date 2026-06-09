@@ -1,5 +1,5 @@
 from textual.app import App, ComposeResult
-from textual.widgets import Digits
+from textual.widgets import Digits, Label
 from textual.containers import Container
 
 class MyApp(App):
@@ -12,6 +12,7 @@ class MyApp(App):
 
     def compose(self) -> ComposeResult:
         with Container(id="ct"):
+            yield Label("ALLAHU AKBAR!", id="msg")
             yield Digits(str(self.remaining), id="countdown")
 
     def on_mount(self) -> None:
