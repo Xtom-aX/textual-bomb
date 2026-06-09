@@ -2,10 +2,6 @@ Screen {
     background: #0b0f14;
 }
 
-Screen.alarm {
-    background: red;
-}
-
 #ct {
     align: center middle;
 }
