@@ -1,0 +1,25 @@
+Screen {
+    background: #0b0f14;
+}
+
+Screen.alarm {
+    background: red;
+}
+
+#ct {
+    align: center middle;
+}
+
+/* Main countdown display */
+#countdown {
+    width: 30;
+    text-align: center;
+
+    border: outer #ff9100;
+    background: #191e27;
+
+    color: #ff2f00;
+    text-style: bold;
+
+    padding: 1;
+}
