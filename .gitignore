@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+
+*.log
+.env
+
+*.db
+_[!_]* 
